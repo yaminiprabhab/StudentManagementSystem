@@ -15,23 +15,23 @@ The system provides an easy-to-use graphical interface, making it a lightweight 
 ## ✨ Features
 
 ### Add Students
-- ➔ Add a new student by entering their registration number, name, and branch.
+- Add a new student by entering their registration number, name, and branch.
 
 ### Mark Attendance
-- ➔ Enter total and attended classes for five subjects.
-- ➔ Automatically calculates attendance percentage and determines exam eligibility (>= 75%).
+- Enter total and attended classes for five subjects.
+- Automatically calculates attendance percentage and determines exam eligibility (>= 75%).
 
 ### Enter Marks
-- ➔ Enter subject-wise marks for students who are eligible based on attendance.
+- Enter subject-wise marks for students who are eligible based on attendance.
 
 ### Generate and View Report Card
-- ➔ View a detailed report card showing subject marks or "Not Eligible" for each subject.
+- View a detailed report card showing subject marks or "Not Eligible" for each subject.
 
 ### Search Students by Branch
-- ➔ Search and list students from a particular branch.
+- Search and list students from a particular branch.
 
 ### View Attendance
-- ➔ View the attendance percentage for each subject for any student.
+- View the attendance percentage for each subject for any student.
 
 ### Manage Calendar Tasks
 - Add Daily Tasks: Add tasks along with deadlines.
@@ -39,10 +39,10 @@ The system provides an easy-to-use graphical interface, making it a lightweight 
 - Update Daily Tasks: Update or modify any existing task.
 
 ### Software Access Simulation
-- ➔ A simple placeholder for software access functionality (could be expanded).
+- A simple placeholder for software access functionality (could be expanded).
 
 ### Exit Application
-- ➔ Safely close the program.
+- Safely close the program.
 
 ## 🔧 Components
 
