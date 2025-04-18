@@ -1,61 +1,78 @@
-# About the project:
-The Student Management System is a simple Java desktop application built using Java AWT and Swing. It helps manage student records, including attendance, exam eligibility, marks entry, and event calendar tasks for students. The system provides an easy-to-use graphical interface for all operations, making it a lightweight yet functional solution for small-scale educational environments.
+# Student Management System
 
-# Features
-Add Students:
-Add a new student by entering their registration number, name, and branch.
+## About the Project
 
-Mark Attendance:
-Enter total and attended classes for five subjects.
-Automatically calculates attendance percentage and determines exam eligibility (>= 75%).
+The Student Management System is a simple Java desktop application built using Java AWT and Swing.
 
-Enter Marks:
-Enter subject-wise marks for students who are eligible based on attendance.
+It helps manage student records, including:
+- Attendance
+- Exam eligibility
+- Marks entry
+- Event calendar tasks
 
-Generate and View Report Card:
-View a detailed report card showing subject marks or "Not Eligible" for each subject.
+The system provides an easy-to-use graphical interface, making it a lightweight yet functional solution for small-scale educational environments.
 
-Search Students by Branch:
-Search and list students from a particular branch.
+## ✨ Features
 
-View Attendance:
-View the attendance percentage for each subject for any student.
+### Add Students
+- ➔ Add a new student by entering their registration number, name, and branch.
 
-Manage Calendar Tasks:
-Add Daily Tasks: Add tasks along with deadlines.
-View Calendar Tasks: View all scheduled tasks.
-Update Daily Tasks: Update or modify any existing task.
+### Mark Attendance
+- ➔ Enter total and attended classes for five subjects.
+- ➔ Automatically calculates attendance percentage and determines exam eligibility (>= 75%).
 
-Software Access Simulation:
-A simple placeholder for software access functionality (could be expanded).
+### Enter Marks
+- ➔ Enter subject-wise marks for students who are eligible based on attendance.
 
-Exit Application:
-Safely close the program.
+### Generate and View Report Card
+- ➔ View a detailed report card showing subject marks or "Not Eligible" for each subject.
 
-# Components
-Class Student:
-Stores student's registration number, name, branch, attendance records, eligibility status, and subject marks. Has a displayReportCard() method to show a student's report.
+### Search Students by Branch
+- ➔ Search and list students from a particular branch.
 
-Class StudentManagementSystem:
-Contains:
-An array of Student objects (up to 10 students).
-An array for calendar tasks.
-Functions for all major operations: add student, mark attendance, enter marks, display reports, search by branch, view attendance, manage calendar.
+### View Attendance
+- ➔ View the attendance percentage for each subject for any student.
 
-GUI (Swing & AWT):
-JFrame, JButton, JPanel, JLabel, JTextField, and JOptionPane are used to build the interactive GUI.
-Button-based navigation with easy dialogs for user interaction.
+### Manage Calendar Tasks
+- Add Daily Tasks: Add tasks along with deadlines.
+- View Calendar Tasks: View all scheduled tasks.
+- Update Daily Tasks: Update or modify any existing task.
 
-# Technologies Used
-Java
-Java Swing and AWT (for GUI)
+### Software Access Simulation
+- ➔ A simple placeholder for software access functionality (could be expanded).
 
-# How to Run
-Install Java JDK.
-Copy the source code into a file named StudentManagementSystem.java.
+### Exit Application
+- ➔ Safely close the program.
 
-# Compile using: 
+## 🔧 Components
+
+### Class `Student`
+- Stores student's registration number, name, branch, attendance records, eligibility status, and subject marks.
+- Has a `displayReportCard()` method to show a student's report.
+
+### Class `StudentManagementSystem`
+- Contains an array of Student objects (up to 10 students).
+- An array for calendar tasks.
+- Functions for all major operations: add student, mark attendance, enter marks, display reports, search by branch, view attendance, manage calendar.
+
+### GUI (Swing & AWT)
+- `JFrame`, `JButton`, `JPanel`, `JLabel`, `JTextField`, and `JOptionPane` are used to build the interactive GUI.
+- Button-based navigation with easy dialogs for user interaction.
+
+## 🌐 Technologies Used
+- Java
+- Java Swing and AWT (for GUI)
+
+## 🔄 How to Run
+
+1. Install Java JDK.
+2. Copy the source code into a file named `StudentManagementSystem.java`.
+
+### Compile using:
+```bash
 javac StudentManagementSystem.java
+```
 
-# Run the application:
+### Run the application:
+```bash
 java StudentManagementSystem
