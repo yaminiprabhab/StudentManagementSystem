@@ -12,7 +12,7 @@ It helps manage student records, including:
 
 The system provides an easy-to-use graphical interface, making it a lightweight yet functional solution for small-scale educational environments.
 
-## ✨ Features
+## Features
 
 ### Add Students
 - Add a new student by entering their registration number, name, and branch.
